@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px auto;
+  color: #2e2e22;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 1920px;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+a {
+  display: inline-block;
+  color: #354e57;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+  transition: all 0.8s ease 0s;
+  opacity: 0.8;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+.cmn-inner {
+  width: 98%;
+  margin: 0px auto;
+  max-width: 1180px;
+}
+
+.cmn-main-ttl {
+  line-height: 1.2;
+  color: #2e2e22;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.cmn-header {
+  padding: 20px 0px;
+  background-color: #ffffff;
+}
+
+.cmn-header .header-logo {
+  width: 115px;
+  margin: 0px auto;
+  padding-bottom: 26px;
+}
+
+.cmn-header .g-nav {
+  width: 539px;
+  margin: 0px auto;
+}
+
+.cmn-header .g-nav ul li {
+  float: left;
+  margin-right: 51px;
+  padding-bottom: 3px;
+}
+
+.cmn-header .g-nav ul li:last-child {
+  margin-right: 0px;
+}
+
+.cmn-header .g-nav ul li.active, .cmn-header .g-nav ul li:hover {
+  transition: all 0.2s ease 0s;
+  border-bottom: 4px solid #ff8800;
+}
+
+.cmn-header .g-nav ul li a {
+  color: #354e57;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.main-container {
+  padding: 50px 0px;
+  background-color: #7bdfdd;
+}
+
+.main-container a {
+  border-bottom: 1px solid #cea239;
+}
+
+.footer {
+  padding: 50px 0px;
+  background-color: #ffa8a8;
+}
